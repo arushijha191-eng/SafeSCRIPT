@@ -1,0 +1,47 @@
+/* SafeScript AI styles: loaded by load_css() in app.py */
+
+.block-container { padding-top: 2rem; max-width: 1100px; }
+
+/* Existing components */
+.agent-badge {
+  border-left: 4px solid #0f766e;
+  background: rgba(15, 118, 110, .08);
+  padding: .6rem .9rem;
+  border-radius: 4px;
+  margin: .25rem 0 1rem 0;
+}
+.sos-number { font-size: 1.35rem; font-weight: 700; margin: 0; }
+
+/* Hero header */
+.hero {
+  background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 6px 22px rgba(15, 118, 110, .25);
+}
+.hero h1 { color: #ffffff; margin: 0 0 .25rem 0; padding: 0; font-size: 2rem; font-weight: 800; }
+.hero p { margin: 0 0 .75rem 0; font-size: 1rem; opacity: .95; }
+.hero .pill {
+  display: inline-block;
+  background: rgba(255, 255, 255, .18);
+  border: 1px solid rgba(255, 255, 255, .35);
+  color: #ffffff;
+  border-radius: 999px;
+  padding: .2rem .75rem;
+  margin: 0 .4rem .4rem 0;
+  font-size: .82rem;
+  font-weight: 600;
+}
+
+/* Safety gauge */
+.gauge-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(15, 118, 110, .06);
+  border: 1px solid rgba(15, 118, 110, .2);
+  border-radius: 16px;
+  padding: .6rem;
+}
